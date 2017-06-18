@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Ivancho.cs" />
     <Compile Include="Gosho.cs" />
+    <Compile Include="Penka.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
