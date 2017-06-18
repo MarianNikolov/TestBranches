@@ -11,11 +11,15 @@ namespace ConsoleApp
         static void Main(string[] args)
         {
             var gosho = new Gosho("Gosho");
+            var ivan= new Ivancho();
 
             Console.WriteLine(gosho.ToString());
             Console.WriteLine();
 
             Console.WriteLine("Pesho e velik");
+            Console.WriteLine();
+
+            Console.WriteLine(ivan.GetName());
             Console.WriteLine();
 
         }
