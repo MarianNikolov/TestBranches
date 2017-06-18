@@ -11,7 +11,8 @@ namespace ConsoleApp
         static void Main(string[] args)
         {
             var gosho = new Gosho("Gosho");
-            var ivan= new Ivancho();
+            var ivan = new Ivancho();
+            var penka = new Penka();
 
             Console.WriteLine(gosho.ToString());
             Console.WriteLine();
@@ -22,6 +23,8 @@ namespace ConsoleApp
             Console.WriteLine(ivan.GetName());
             Console.WriteLine();
 
+            Console.WriteLine(penka.GetName());
+            Console.WriteLine();
         }
     }
 }
