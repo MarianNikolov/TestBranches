@@ -18,6 +18,7 @@ namespace ConsoleApp
             Console.WriteLine("Pesho e velik");
             Console.WriteLine();
 
+            Console.WriteLine(IvanchoTestedClass.GetName());
         }
     }
 }
