@@ -10,7 +10,14 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
+            var gosho = new Gosho("Gosho");
+
+            Console.WriteLine(gosho.ToString());
+            Console.WriteLine();
+
             Console.WriteLine("Pesho e velik");
+            Console.WriteLine();
+
         }
     }
 }
